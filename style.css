@@ -1,0 +1,215 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn{
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fd6e0a;
+    border: 1px solid #fd6e0a;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.logo-r{
+    color: #fd6e0a;
+}
+
+
+
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p1{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+
+.hero-parent-root{
+    background-color: #f6e9df;
+}
+
+.about-parent{
+    background-color: #f6e9df;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 20px 0;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-box-parent .box{
+    background-color: #f6dcc8;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.what-i-do-parent{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.what-i-do-card-container{
+    margin-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    gap: 8px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #fd6e0a;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card p{
+    color: #525251;
+    font-size: 15px;
+}
+
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+
+.my-amazing-parent{
+    text-align: center;
+}
+
+.gallery{
+    margin-top: 20px;
+    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box1{
+    grid-area: one;
+}
+.box2{
+    grid-area: two;
+}
+.box3{
+    grid-area: three;
+}
+.box4{
+    grid-area: four;
+}
+.box5{
+    grid-area: five;
+}
+.box6{
+    grid-area: six;
+}
+
+footer{
+    text-align: center;
+    margin-top: 70px !important;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #f6dcc8;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer form input,
+footer form textarea{
+    outline: none;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+
+}
+
+.footer-left{
+    margin: 10px 0;
+}
